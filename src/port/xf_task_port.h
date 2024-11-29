@@ -79,7 +79,6 @@ typedef void (*xf_task_swap_context_t)(xf_task_manager_t manager, void *old_cont
 /**
  * @brief 设置当前任务的心跳。
  *
- * @param clock_per_sec 一秒钟的滴答数。
  * @param clock 获取心跳的数值。
  * @return xf_err_t
  *      - XF_ERR_INVALID_ARG 参数错误
