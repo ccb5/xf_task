@@ -18,7 +18,9 @@
 #include "xf_utils.h"
 
 /**
- * @ingroup group_xf_task_port
+ * @cond XFAPI_PORT
+ * @addtogroup group_xf_task_port
+ * @endcond
  * @{
  */
 
@@ -106,9 +108,8 @@ xf_err_t xf_task_context_init(xf_task_create_context_t create_context, xf_task_s
 #endif
 
 /**
- * End of group_xf_task_port
+ * End of addtogroup group_xf_task_port
  * @}
  */
 
 #endif // __XF_TASK_PORT_H__
-
